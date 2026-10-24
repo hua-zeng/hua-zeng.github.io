@@ -730,7 +730,6 @@ button {
 /* =========================================================
    Footer
    ========================================================= */
-.nowrap { white-space: nowrap; }
 
 .site-footer {
   padding: 32px 0 40px;
@@ -814,8 +813,6 @@ button {
 
 @media (max-width: 420px) {
   .hero-cta .btn { flex: 1 1 100%; }
-  .footer-sep { display: none; }
-  .site-footer .nowrap { display: block; }
   .section-title::after { display: none; }
 }
 
