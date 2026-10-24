@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hua (Edward) Zeng · Software Engineer</title>
+  <meta name="description" content="Hua (Edward) Zeng is a software engineer building retrieval-augmented AI, agent systems, and large-scale data pipelines on AWS, with a background in medicine and public health.">
+  <meta name="author" content="Hua (Edward) Zeng">
+  <meta name="theme-color" content="#0B1220">
+
+  <!-- Link previews -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Hua (Edward) Zeng · Software Engineer">
+  <meta property="og:description" content="Software engineer building AI and data systems: retrieval-augmented AI, agent systems, and large-scale data pipelines on AWS.">
+  <meta property="og:url" content="https://hua-zeng.github.io/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Hua (Edward) Zeng · Software Engineer">
+  <meta name="twitter:description" content="Software engineer building AI and data systems.">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Apply the saved theme before first paint to avoid a flash -->
+  <script>
+    (function () {
+      var theme = 'dark';
+      try { theme = localStorage.getItem('theme') || 'dark'; } catch (e) {}
+      document.documentElement.setAttribute('data-theme', theme);
+      document.documentElement.classList.add('js');
+    })();
+  </script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#top" aria-label="Back to top">HZ</a>
+
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary">
+        <ol class="nav-links">
+          <li><a href="#about"><span class="nav-num">01.</span>About</a></li>
+          <li><a href="#experience"><span class="nav-num">02.</span>Experience</a></li>
+          <li><a href="#projects"><span class="nav-num">03.</span>Projects</a></li>
+          <li><a href="#skills"><span class="nav-num">04.</span>Skills</a></li>
+          <li><a href="#contact"><span class="nav-num">05.</span>Contact</a></li>
+        </ol>
+      </nav>
+
+      <div class="header-actions">
+        <button type="button" class="icon-btn theme-toggle" aria-label="Switch to light mode">
+          <svg class="icon-sun" aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+          <svg class="icon-moon" aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button type="button" class="icon-btn menu-toggle" aria-controls="primary-nav" aria-expanded="false" aria-label="Open menu">
+          <svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path class="menu-line-1" d="M4 7h16"/><path class="menu-line-2" d="M4 12h16"/><path class="menu-line-3" d="M4 17h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero" id="top" aria-label="Introduction">
+      <div class="container">
+        <h1 class="hero-name reveal">Hua Zeng</h1>
+        <p class="hero-headline reveal" style="--d: 1">
+          Software Engineer building <span class="accent">AI and data systems.</span>
+        </p>
+        <p class="hero-tagline reveal" style="--d: 2">
+          I build retrieval-augmented AI, agent systems, and large-scale data pipelines on AWS,
+          with a background in medicine and public health.
+        </p>
+        <div class="hero-cta reveal" style="--d: 3">
+          <a class="btn btn-primary" href="#projects">View my work</a>
+          <a class="btn btn-secondary" href="#contact">Get in touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 01. About -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <h2 class="section-title reveal" id="about-title"><span class="section-num">01.</span>About</h2>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              Hi, I'm Hua — I also go by Edward. I took an unusual road into software: I trained
+              in medicine at Xiangya, then studied epidemiology at Yale, where I learned to look past
+              individual patients to the patterns in whole populations.
+            </p>
+            <p>
+              Years in health data science taught me how much rides on the systems underneath the
+              analysis, so I went back to Penn for a master's in computer science and became an engineer.
+              What ties it all together is the work I enjoy most: turning messy, high-stakes data into
+              systems people can rely on.
+            </p>
+          </div>
+
+          <ol class="path reveal" style="--d: 1" aria-label="My path">
+            <li><span class="path-step">Medicine</span><span class="path-place">Bachelor of Medicine · Xiangya</span></li>
+            <li><span class="path-step">Epidemiology</span><span class="path-place">Master of Public Health · Yale</span></li>
+            <li><span class="path-step">Health data science</span><span class="path-place">Data Scientist · Acumen</span></li>
+            <li><span class="path-step">Software engineering</span><span class="path-place">Master of Computer Science · Penn</span></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02. Experience -->
+    <section class="section" id="experience" aria-labelledby="experience-title">
+      <div class="container">
+        <h2 class="section-title reveal" id="experience-title"><span class="section-num">02.</span>Experience</h2>
+        <ol class="timeline">
+          <li class="tl-item reveal">
+            <p class="tl-date">2025 – Present</p>
+            <div class="tl-body">
+              <h3 class="tl-role">Senior Software Engineer</h3>
+              <p class="tl-company">Capital One</p>
+              <ul class="tl-points">
+                <li>Build generative AI retrieval (RAG) and agent-based systems for enterprise document search</li>
+                <li>Develop high-volume data ingestion pipelines and APIs on AWS (Go, Spark, Python)</li>
+                <li>Design evaluation frameworks to measure retrieval quality and agent reliability</li>
+              </ul>
+            </div>
+          </li>
+          <li class="tl-item reveal">
+            <p class="tl-date">2023 – 2025</p>
+            <div class="tl-body">
+              <h3 class="tl-role">Data Scientist</h3>
+              <p class="tl-company">Acumen LLC</p>
+              <ul class="tl-points">
+                <li>Built machine learning models on large-scale healthcare claims data to improve health outcome predictions</li>
+                <li>Developed interactive COVID-19 dashboards and automated regression pipelines for hospital performance</li>
+              </ul>
+            </div>
+          </li>
+          <li class="tl-item reveal">
+            <p class="tl-date">2022</p>
+            <div class="tl-body">
+              <h3 class="tl-role">Software Engineer II Intern</h3>
+              <p class="tl-company">Walmart Global Tech</p>
+              <ul class="tl-points">
+                <li>Built a scalable async data pipeline for international payment transactions</li>
+                <li>Developed idempotent deduplication logic and RESTful APIs in Kotlin for high-scale Cassandra storage</li>
+                <li>Automated end-to-end test suites, achieving near 100% code coverage on critical payment components</li>
+              </ul>
+            </div>
+          </li>
+          <li class="tl-item reveal">
+            <p class="tl-date">2022</p>
+            <div class="tl-body">
+              <h3 class="tl-role">Machine Learning Engineer Intern</h3>
+              <p class="tl-company">TIBCO Software</p>
+              <ul class="tl-points">
+                <li>Developed cloud-native ML operators and backward-compatible translators in Scala and Spark</li>
+                <li>Designed YAML configurations for data frames, models, and ML pipelines</li>
+                <li>Built Dockerized UI modules with input validation and execution status</li>
+              </ul>
+            </div>
+          </li>
+          <li class="tl-item reveal">
+            <p class="tl-date">2015 – 2021</p>
+            <div class="tl-body">
+              <h3 class="tl-role">Data &amp; Policy Analyst</h3>
+              <p class="tl-company">Acumen LLC</p>
+              <ul class="tl-points">
+                <li>Analyzed large-scale Medicare and Medicaid claims data to support federal health policy research</li>
+                <li>Built regression models, ETL pipelines, and QA processes for healthcare performance studies</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- 03. Projects -->
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <h2 class="section-title reveal" id="projects-title"><span class="section-num">03.</span>Projects</h2>
+        <ul class="project-grid">
+          <li class="reveal">
+            <article class="project-card">
+              <div class="project-top">
+                <svg class="project-icon" aria-hidden="true" viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+              </div>
+              <h3 class="project-title">AirBnDatabase</h3>
+              <p class="project-desc">
+                A full-stack app for exploring rental listings, hosts, and reviews side by side with local
+                COVID-19 data. It pairs a React front end with a Node.js API and a MySQL database that
+                joins those datasets, all deployed on AWS.
+              </p>
+              <ul class="project-tags" aria-label="Technologies">
+                <li>React</li><li>Node.js</li><li>MySQL</li><li>AWS</li>
+              </ul>
+            </article>
+          </li>
+          <li class="reveal" style="--d: 1">
+            <article class="project-card">
+              <div class="project-top">
+                <svg class="project-icon" aria-hidden="true" viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+              </div>
+              <h3 class="project-title">GETGOT Card Program</h3>
+              <p class="project-desc">
+                A WeChat Mini Program that tells trading-card collectors what they're holding, from sports
+                cards to Pokémon. Under the hood, I scrape and clean messy card data and use an image
+                classification model to recognize each card type.
+              </p>
+              <ul class="project-tags" aria-label="Technologies">
+                <li>WeChat Mini Program</li><li>TensorFlow</li><li>Keras</li><li>OpenCV</li>
+              </ul>
+            </article>
+          </li>
+          <li class="reveal" style="--d: 2">
+            <article class="project-card">
+              <div class="project-top">
+                <svg class="project-icon" aria-hidden="true" viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+              </div>
+              <h3 class="project-title">E-commerce Recommender System</h3>
+              <p class="project-desc">
+                A product recommendation system split into recall, ranking, and user-profile services.
+                The interesting part was the architecture: each stage runs as its own scalable Java
+                microservice.
+              </p>
+              <ul class="project-tags" aria-label="Technologies">
+                <li>Java</li><li>Spring Boot</li><li>Dubbo</li><li>Zookeeper</li><li>Redis</li><li>Hive</li><li>MySQL</li>
+              </ul>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 04. Skills -->
+    <section class="section" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <h2 class="section-title reveal" id="skills-title"><span class="section-num">04.</span>Skills</h2>
+
+        <div class="skills-grid">
+          <div class="skill-group reveal">
+            <h3 class="label">Languages</h3>
+            <ul class="chips">
+              <li>Python</li><li>Go</li><li>Java</li><li>TypeScript</li><li>SQL</li><li>Kotlin</li><li>Scala</li><li>R</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal" style="--d: 1">
+            <h3 class="label">AI / ML</h3>
+            <ul class="chips">
+              <li>RAG</li><li>LLM agents</li><li>Vector search</li><li>Evaluation</li><li>TensorFlow</li><li>scikit-learn</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3 class="label">Data</h3>
+            <ul class="chips">
+              <li>Spark</li><li>ETL pipelines</li><li>Pandas</li><li>Hive</li><li>PostgreSQL</li><li>MySQL</li><li>Cassandra</li><li>Redis</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal" style="--d: 1">
+            <h3 class="label">Cloud / DevOps</h3>
+            <ul class="chips">
+              <li>AWS (Lambda, ECS, Fargate)</li><li>Docker</li><li>Jenkins</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="creds">
+          <div class="reveal">
+            <h3 class="label">AWS Certifications</h3>
+            <ul class="badges">
+              <li class="badge">
+                <svg aria-hidden="true" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+                <span>Generative AI Developer</span><span class="badge-level">Professional</span>
+              </li>
+              <li class="badge">
+                <svg aria-hidden="true" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+                <span>Solutions Architect</span><span class="badge-level">Associate</span>
+              </li>
+              <li class="badge">
+                <svg aria-hidden="true" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+                <span>Machine Learning Engineer</span><span class="badge-level">Associate</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="reveal" style="--d: 1">
+            <h3 class="label">Education</h3>
+            <ul class="edu">
+              <li>
+                <span class="edu-degree">Master of Computer Science</span>
+                <span class="edu-school">University of Pennsylvania</span>
+              </li>
+              <li>
+                <span class="edu-degree">Master of Public Health, Chronic Disease Epidemiology</span>
+                <span class="edu-school">Yale University</span>
+              </li>
+              <li>
+                <span class="edu-degree">Bachelor of Medicine</span>
+                <span class="edu-school">Xiangya School of Medicine, Central South University</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05. Contact -->
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <p class="section-num contact-num reveal">05. Contact</p>
+        <h2 class="contact-title reveal" id="contact-title">Get in touch</h2>
+        <p class="contact-line reveal">Open to conversations about AI engineering and data systems.</p>
+        <div class="contact-actions reveal">
+          <!-- The address is assembled in script.js from these reversed parts, so it never appears as plain text. -->
+          <button type="button" class="btn btn-primary email-btn" data-u="3202gnezauh" data-d="moc.liamg">
+            <svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+            <span>Email me</span>
+          </button>
+          <a class="icon-link" href="https://github.com/hua-zeng" target="_blank" rel="noopener noreferrer" aria-label="GitHub (opens in a new tab)">
+            <svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M12 .3a12 12 0 0 0-3.8 23.38c.6.12.83-.26.83-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.83 2.8 1.3 3.49 1 .1-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.64 1.66.24 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.61-2.8 5.63-5.48 5.92.42.36.81 1.1.81 2.22v3.29c0 .32.21.7.82.58A12 12 0 0 0 12 .3"/></svg>
+          </a>
+          <a class="icon-link" href="https://www.linkedin.com/in/huazeng13" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn (opens in a new tab)">
+            <svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p><span class="nowrap">Designed &amp; built by Hua (Edward) Zeng</span><span class="footer-sep" aria-hidden="true"> · </span><span class="nowrap">© <span class="year">2026</span></span></p>
+    </div>
+  </footer>
+</body>
+</html>
