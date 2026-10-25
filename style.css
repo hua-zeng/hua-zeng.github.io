@@ -827,6 +827,13 @@ button {
   .hero-headline { margin-top: 16px; }
   .hero-tagline { margin-top: 20px; }
   .hero-cta { margin-top: 32px; }
+
+  /* Tighter rhythm between sections */
+  .section { padding: 48px 0; }
+  #skills { padding-bottom: 28px; }
+  .contact { padding-top: 28px; padding-bottom: 64px; }
+  .section-title { margin-bottom: 28px; }
+  .creds { margin-top: 40px; }
 }
 
 @media (max-width: 420px) {
