@@ -821,6 +821,14 @@ button {
   .project-card { padding: 24px; }
 }
 
+@media (max-width: 640px) {
+  /* Content-height hero on phones so the name and buttons sit higher */
+  .hero { min-height: 0; padding: 48px 0 24px; }
+  .hero-headline { margin-top: 16px; }
+  .hero-tagline { margin-top: 20px; }
+  .hero-cta { margin-top: 32px; }
+}
+
 @media (max-width: 420px) {
   .hero-cta .btn { flex: 1 1 100%; }
   .section-title::after { display: none; }
