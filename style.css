@@ -425,6 +425,16 @@ button {
   border-color: var(--accent);
   background: var(--accent);
 }
+/* Stop the connecting line at the last dot */
+.path li:last-child::after {
+  content: "";
+  position: absolute;
+  left: -28px;
+  top: 25px;
+  bottom: -10px;
+  width: 11px;
+  background: var(--bg);
+}
 
 .path-step {
   font-family: var(--font-head);
